@@ -136,8 +136,8 @@ figure {
 }
 
 .products {
-	width: 310px;
-	height: 180px;
+	width: 280px;
+	height: 178px;
 }
 
 .info h3 {
@@ -183,6 +183,10 @@ figure {
 	font-weight: 400;
 }
 
+#video {
+	padding: 50px 250px;
+}
+
 footer {
 	height: 70px;
 	background-color: rgba(1.8, 0.5, 1.2, 0.9);
@@ -193,13 +197,13 @@ footer {
 	margin: 0px 100px 0 100px;
 }
 
-footer ol {
+footer ul {
 	display: flex;
 	justify-content: flex-end;
 
 }
 
- footer ol li {
+ footer ul li {
 	display: list-item;
 	list-style: none;
 	padding: 5px 10px 5px 10px;
