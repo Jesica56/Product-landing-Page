@@ -154,13 +154,13 @@ footer {
 	margin: 0px 100px 0 100px;
 }
 
-footer ul {
+footer ol {
 	display: flex;
 	justify-content: flex-end;
 
 }
 
- footer ul li {
+ footer ol li {
 	display: list-item;
 	list-style: none;
 	padding: 5px 10px 5px 10px;
