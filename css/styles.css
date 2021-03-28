@@ -110,6 +110,13 @@ a {
 	grid-gap: 30px;
 }
 
+#tienda {
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .item {
 	display: flex;
 	flex-direction: column;
@@ -121,26 +128,33 @@ a {
 	border-radius: 3px;
 }
 
+figure {
+	display: block;
+	padding: 5px;
+	background-color: rgba(1.8, 0.5, 1.2, 0.9)
+}
+
 .products {
 	width: 310px;
 	height: 180px;
 }
 
-#tienda {
-	margin-top: 0px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+.info h3 {
+	display: block;
+	font-size: 1.17em;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	background-color: rgba(255, 255, 255);
 }
 
-.piano {
-	width: 560px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-.titulo {
+.info h2 {
+	font-family: Arial;
 	text-align: center;
+	color: rgba(255, 255, 255);
+	padding: 5px 0px 5px 0px;
+	background-color: rgba(1.8, 0.5, 1.2, 0.9);
 }
+
 
 
 
