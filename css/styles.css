@@ -187,7 +187,7 @@ figure {
 	padding: 50px 250px;
 }
 
-footer {
+	footer {
 	height: 70px;
 	background-color: rgba(1.8, 0.5, 1.2, 0.9);
 	display: block;
@@ -197,22 +197,23 @@ footer {
 	margin: 0px 100px 0 100px;
 }
 
-footer ul {
+	footer > ul {
 	display: flex;
 	justify-content: flex-end;
 
 }
 
- footer ul li {
+ 	footer ul li {
 	display: list-item;
 	list-style: none;
 	padding: 5px 10px 5px 10px;
 }
 
-footer span {
+	footer > span {
 	margin-top: 5px;
 	display: flex;
 	justify-content: flex-end;
 	font-size: 1em;
 	color:  rgb(255, 255, 255);
 }
+
