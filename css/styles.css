@@ -8,6 +8,7 @@ body {
 	background-color: rgba(25, 15, 21, 0.2);
 }
 
+
 #header {
 	display: flex;
 	align-items: center;
@@ -103,7 +104,7 @@ a {
 	font-size: large;
 }
 
-.container {
+.box {
 	width: 90%;
 	max-width: 1000px;
 	margin: 50px auto 40px auto;
