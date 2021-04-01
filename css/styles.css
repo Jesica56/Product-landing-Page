@@ -1,12 +1,14 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
 	display: block;
 	background-color: rgba(25, 15, 21, 0.2);
 }
+
 
 
 #header {
@@ -37,6 +39,10 @@ h1 {
 	width: 100%;
 }
 
+nav {
+	font-weight: 400;
+}
+
 #nav-bar {
 	width: 500px;
 	display: flex;
@@ -62,12 +68,10 @@ a {
 	align-items: center;
 	font-size: 1.8em;
 	justify-content: center;
-	margin-left: 450px;
-    margin-right: 450px;
     height: 30px;
     width: 500px;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	padding-top: 50px;
+	padding-bottom: 36px;
 
 }
 
@@ -127,6 +131,7 @@ a {
 	text-align: center;
 	width: calc(100% / 3);
 	margin: 10px;
+	border: 1px solid #000;
 	border-radius: 3px;
 	background-color:  rgba(1.8, 0.5, 1.2, 0.9);
 	padding-bottom: 5px;
@@ -185,9 +190,15 @@ figure {
 	font-weight: 400;
 }
 
-#video {
-	padding: 50px 250px;
+#demostración {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
 }
+
+/*#video {
+	padding: 50px 250px;
+}*/
 
 footer {
 	height: 70px;
@@ -219,3 +230,48 @@ footer span {
 	color:  rgb(255, 255, 255);
 }
 
+@media (max-width: 640px){
+	nav {
+		flex-direction: column;
+		text-align: right;
+		padding: 10px 25px 10px 35px;
+	}
+
+	#header-img {
+		width: 75px;
+		padding: 7px 5px 5px 4px;
+	}
+
+	.form h2 {
+		font-size: 1.3em;
+		width: 600px;
+		height: 68px;
+		padding-top: 13px;
+	}
+
+	#email {
+		width: 208px;
+	}
+
+	#tienda {
+		width: 100%;
+		flex-direction:  column;
+
+	}
+
+	.products {
+		width: 178px;
+    	height: 144px;
+	}
+
+	#demostración {
+		width: 305px;
+		height: 315px;
+		padding: 0 5px;
+		margin: 40px 10px 10px 10px;
+	}
+
+	footer {
+
+	}
+}
