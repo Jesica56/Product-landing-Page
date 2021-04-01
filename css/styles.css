@@ -1,12 +1,15 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
 	display: block;
 	background-color: rgba(25, 15, 21, 0.2);
 }
+
+
 
 #header {
 	display: flex;
@@ -36,6 +39,10 @@ h1 {
 	width: 100%;
 }
 
+nav {
+	font-weight: 400;
+}
+
 #nav-bar {
 	width: 500px;
 	display: flex;
@@ -61,12 +68,10 @@ a {
 	align-items: center;
 	font-size: 1.8em;
 	justify-content: center;
-	margin-left: 450px;
-    margin-right: 450px;
     height: 30px;
     width: 500px;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 
 }
 
@@ -103,12 +108,12 @@ a {
 	font-size: large;
 }
 
-.container {
+.box {
 	width: 90%;
 	max-width: 1000px;
 	margin: 50px auto 40px auto;
-	display: grid;
-	grid-gap: 30px;
+	display: block;
+	/*grid-gap: 30px;*/
 }
 
 #tienda {
@@ -116,6 +121,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	width: 990px;
 }
 
 .item {
@@ -125,6 +131,7 @@ a {
 	text-align: center;
 	width: calc(100% / 3);
 	margin: 10px;
+	border: 1px solid #000;
 	border-radius: 3px;
 	background-color:  rgba(1.8, 0.5, 1.2, 0.9);
 	padding-bottom: 5px;
@@ -183,8 +190,18 @@ figure {
 	font-weight: 400;
 }
 
-#video {
-	padding: 50px 250px;
+#demostración {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#formas-de-pago h2 {
+	text-align: center;
+}
+
+#formas-de-pago ol li {
+	list-style: none;
 }
 
 	footer {
@@ -215,5 +232,50 @@ figure {
 	justify-content: flex-end;
 	font-size: 1em;
 	color:  rgb(255, 255, 255);
+}
+
+@media (max-width: 	768px){
+	nav {
+		flex-direction: column;
+		text-align: right;
+		padding: 10px 25px 10px 35px;
+	}
+
+	#header-img {
+		width: 75px;
+		padding: 7px 5px 5px 4px;
+	}
+
+	.form h2 {
+		font-size: 1.6em;
+		width: 700px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	#email {
+		width: 208px;
+	}
+
+	#tienda {
+		max-width: 100%;
+		height: 1615px;
+		flex-direction:  column;
+		align-items: center;
+	}
+
+	.products {
+		width: 178px;
+    	height: 144px;
+	}
+
+	#demostración {
+		padding: 0 5px;
+		margin: 40px 10px 10px 10px;
+	}
+
+	footer {
+		margin: 0px;
+	}
 }
 
