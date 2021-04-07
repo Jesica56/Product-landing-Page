@@ -53,6 +53,7 @@ a {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
+
 .form {
 	display: flex;
 	flex-direction: column;
@@ -143,8 +144,9 @@ figure {
 }
 
 .products {
-	width: 280px;
+	width: 222px;
 	height: 178px;
+	padding: 10px 0px 10px 0px;
 }
 
 .info h3 {
@@ -253,6 +255,11 @@ figure {
 		padding: 7px 5px 5px 4px;
 	}
 
+	.form {
+		padding-top: 88px;
+		padding-bottom: 50px;
+	}
+
 	.form h2 {
 		font-size: 1.6em;
 		width: 700px;
@@ -269,11 +276,13 @@ figure {
 		height: 1615px;
 		flex-direction:  column;
 		align-items: center;
+		padding-top: 851px;
+		padding-bottom: 863px;
 	}
 
 	.products {
-		width: 178px;
-    	height: 144px;
+		width: 189px;
+    	height: 187px;
 	}
 
 	#demostración {
