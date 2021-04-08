@@ -198,12 +198,21 @@ figure {
 	justify-content: center;
 }
 
-#formas-de-pago h2 {
-	text-align: center;
+#entrega {
+	height: 283px;
 }
 
-#formas-de-pago ol li {
-	list-style: none;
+#entrega h2 {
+	text-align: center;
+	padding: 20px 0px 15px;
+}
+
+.tra {
+	width: 375px;
+	float: left;
+    height: 227px;
+    margin-right: 30px;
+    margin-bottom: 16px;
 }
 
 	footer {
@@ -212,7 +221,7 @@ figure {
 	display: block;
 	justify-content: center;
 	align-items: center;
-	padding: 20px;
+	padding: 10px 70px;
 	margin-top: 40px;
 }
 
@@ -244,10 +253,8 @@ figure {
 }
 
 @media (max-width: 	768px){
-	nav {
-		flex-direction: column;
-		text-align: right;
-		padding: 10px 25px 10px 35px;
+	#nav-link a {
+		padding-right: 10px;
 	}
 
 	#header-img {
@@ -292,6 +299,7 @@ figure {
 
 	footer {
 		margin: 0px;
+		padding: 10px 30px;
 	}
 }
 
