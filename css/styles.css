@@ -26,6 +26,7 @@ body {
 }
 
 .logo {
+	display: block;
 	width: 80px;
 	height: 80px;
 }
@@ -207,11 +208,9 @@ figure {
 }
 
 	footer {
-	height: 70px;
+	height: 100px;
 	background-color: rgba(1.8, 0.5, 1.2, 0.9);
 	display: block;
-	justify-content: center;
-	align-items: center;
 	padding: 20px;
 	margin-top: 40px;
 }
@@ -250,6 +249,11 @@ figure {
 		padding: 10px 25px 10px 35px;
 	}
 
+	#nab-bar {
+		justify-content: flex-end;
+		align-items: end;
+	}
+
 	#header-img {
 		width: 75px;
 		padding: 7px 5px 5px 4px;
@@ -269,6 +273,10 @@ figure {
 
 	#email {
 		width: 208px;
+	}
+
+	.item {
+		width: calc(100% / 2);
 	}
 
 	#tienda {
@@ -295,5 +303,46 @@ figure {
 	}
 }
 
+@media (max-width: 490px) {
+	#header {
+		height: 94px;
+	}
 
+	.form {
+		height: 250px;
+		padding-top: 36px;
+		padding-bottom: 0px;
+	}
+
+	.form h2 {
+		font-size: 20px;
+	}
+
+	.box {
+		margin-top: 0px;
+	}
+
+	.item {
+		width: calc(100% / 1);
+	}
+
+	#demostración {
+		padding: 20px 0;
+	}
+
+	h2 {
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	padding: 5px;
+}
+
+	.tra {
+	width: 323px;
+}
+
+footer {
+	height: 100%;
+}
+}
 
